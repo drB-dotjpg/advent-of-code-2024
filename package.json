@@ -1,0 +1,8 @@
+{
+  "name": "advent-of-code-2024",
+  "version": "1.0.0",
+  "author": "Derek Bond",
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
