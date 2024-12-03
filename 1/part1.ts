@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 let leftColumn: number[] = [], rightColumn: number[] = [], distanceSum: number = 0;
-const fsRead = fs.readFileSync('input.txt', 'utf-8');
+const fsRead = fs.readFileSync('./1/input.txt', 'utf-8');
 
 for (const line of fsRead.toString().replaceAll('\r', '').split('\n')) {
     const split = line.split('   ') as [string, string];

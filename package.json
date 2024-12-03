@@ -4,5 +4,12 @@
   "author": "Derek Bond",
   "devDependencies": {
     "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
   }
 }

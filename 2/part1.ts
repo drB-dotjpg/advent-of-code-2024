@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const fsRead = fs.readFileSync('input.txt', 'utf-8');
+const fsRead = fs.readFileSync('./2/input.txt', 'utf-8');
 
 let safeReports: number = 0;
 for (const line of fsRead.toString().split('\n')) {
