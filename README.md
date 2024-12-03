@@ -14,7 +14,7 @@ Check out [Advent Of Code!](https://adventofcode.com/2024)
 - Clone this repo
 - In the working directory, run `npm i`
 - Then run `npm run build`, the build folder should now exist
-- To run a day/part, use the following `node 
+- To run a day/part, use the following `node build/{day number}/{part1/part2}.js`
 
 ### Other notes
 
